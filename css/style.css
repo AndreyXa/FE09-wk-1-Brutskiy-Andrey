@@ -1,0 +1,49 @@
+@import url('/css/awesom.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+hr {
+  border: none;
+  background-color: #d98943;
+  color: #d98943;
+  height: 2px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}
+.title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+.line {
+  max-width: 64px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item_subtitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+}
