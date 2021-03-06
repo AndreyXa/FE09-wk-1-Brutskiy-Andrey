@@ -1,24 +1,23 @@
 .asome {
   width: 100%;
+  padding: 100px 0;
 }
 .asome_title {
   text-align: center;
-  padding-top: 100px;
 }
 .asome_description {
   text-align: center;
-  padding-top: 30px;
+  margin-top: 30px;
   color: #86878b;
 }
 .asome_row {
-  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 67px;
 }
 .asome_item {
-  display: inline-flex;
   flex-direction: column;
-  margin-top: 67px;
   width: 350px;
-  margin-left: 32px;
 }
 .asome_img {
   border: 1px solid #d98943;
@@ -32,19 +31,16 @@
 }
 .img_lamp {
   display: block;
-  margin-top: 20px;
-  margin-left: 24px;
+  margin: 17px auto;
 }
 .img_keyboard {
   display: block;
-  margin-top: 22px;
-  margin-left: 17px;
+  margin: 17px auto;
 }
 
 .img_charge {
   display: block;
-  margin-top: 19px;
-  margin-left: 25px;
+  margin: 17px auto;
 }
 
 .asome_subtitle {

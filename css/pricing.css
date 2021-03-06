@@ -1,0 +1,85 @@
+.pricing {
+  padding: 80px 0;
+  background-color: #e5e5e5;
+}
+.pricing_title {
+  text-align: center;
+}
+.pricing_line {
+  border: none;
+  background-color: #e72424;
+  color: #e72424;
+  height: 1px;
+}
+.pricing_description {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 63px;
+  color: #86878b;
+}
+
+.section_item {
+  width: 340px;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section_title {
+  background-color: #333333;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  margin-bottom: 2px;
+
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.section_price {
+  background-color: #333333;
+  padding-top: 26px;
+  padding-bottom: 33px;
+  margin-bottom: 2px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.section_descriptoin {
+  background-color: #333333;
+  padding-top: 17px;
+  padding-bottom: 14px;
+  margin-bottom: 2px;
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.section_content {
+  font-size: 14px;
+  line-height: 19px;
+
+  text-align: center;
+
+  color: #86878b;
+}
+.section_list_item {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  margin-bottom: 2px;
+}
+.section_descriptoin_optima {
+  background-color: #d98943;
+}
