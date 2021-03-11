@@ -20,6 +20,7 @@
 }
 
 .customers_items {
+  margin: 76px -15px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
