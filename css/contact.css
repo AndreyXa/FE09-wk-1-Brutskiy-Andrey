@@ -1,0 +1,71 @@
+.contact {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 44px;
+}
+.contact_title {
+  text-align: center;
+}
+.contact_line {
+  border: none;
+  background-color: #e72424;
+  color: #e72424;
+  height: 1px;
+}
+.contact_form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+
+.contact_description {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 91px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #86878b;
+}
+.form_decoratons_text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+
+  color: #bdbdbd;
+}
+.contact_text {
+  width: 478px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #bdbdbd;
+  transform: rotate(0.38deg);
+}
+.contact_buttom {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 67px;
+  padding: 11px 32px;
+  background: #ec7979;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+.contact_buttom_text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
+}
