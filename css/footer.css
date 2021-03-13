@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+  background-color: #000000;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.footer_item {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.footer_item_icon {
+  margin-right: 30px;
+  transition: 0.3s ease;
+}
+.footer_item_icon:hover {
+  transform: scale(1.2);
+}
+.footer_item_link {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 23px;
+}
+
+.footer_text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer_text::before {
+  content: '\f1f9  ';
+  font-family: 'Font Awesome 5 Free';
+  font-size: 12px;
+  font-weight: 500;
+}

@@ -1,0 +1,53 @@
+.header {
+  width: 100%;
+  background-color: #000000;
+}
+.header_logo {
+  display: inline-block;
+}
+.header_logo::after {
+  content: 'IT';
+  color: #ec7979;
+  font-size: 30px;
+}
+
+.logo_ax {
+  display: inline-block;
+  text-align: center;
+  margin-left: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.header_row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+.navigator_items {
+  display: flex;
+}
+.navigator_item {
+  margin-right: 48px;
+}
+
+.navigator_item_text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
+
+  position: relative;
+}
+.navigator_item_text:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}

@@ -26,9 +26,15 @@
   height: 70px;
   border-radius: 50%;
   box-sizing: border-box;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   margin-bottom: 30px;
+}
+.asome_icon {
+  font-size: 40px;
+  color: #ffc401;
 }
 .img_lamp {
   display: block;
