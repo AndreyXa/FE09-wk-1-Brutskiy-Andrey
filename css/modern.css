@@ -1,0 +1,141 @@
+.modern {
+  width: 100%;
+  padding: 109px 0;
+  background-image: url('/img/background-2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.modern::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.container_row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+.modern_logo_ax {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 70px;
+  padding-bottom: 32px;
+  color: #ffffff;
+}
+.modern_logo_ax::after {
+  content: 'IT';
+  color: #ec7979;
+  font-size: 60px;
+}
+.modern_title {
+  width: 544px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.modern_line {
+  max-width: 64px;
+  margin-top: 25px;
+  margin-right: auto;
+  padding-bottom: 39px;
+}
+.modern_line_dec {
+  border: none;
+  background-color: #ffffff;
+  color: #ffffff;
+  height: 1px;
+}
+.modern_text {
+  max-width: 250px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.modern_download {
+  border: 1px solid #ffffff;
+  width: 135px;
+  text-align: left;
+  margin-top: 39px;
+}
+.modern_download_text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 42px;
+  color: #ffffff;
+  padding: 11px 26px;
+}
+.modern_download :hover {
+  background-color: rgba(0, 0, 0, 0.65);
+  transition: 0.5s;
+}
+.modern_form {
+  background-color: #ffffff;
+  border-radius: 8px 8px 0px 0px;
+  max-width: 370px;
+  padding: 29px 59px;
+}
+.modern_form_title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  padding-bottom: 44px;
+  color: #333333;
+}
+.modern_span {
+  color: #ec7979;
+}
+
+.modern_form_decoratons {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #86878b;
+}
+.modern_form_decoratons_text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 19px;
+  color: #bdbdbd;
+}
+.mordern_text {
+  width: 252px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #bdbdbd;
+  transform: rotate(0.38deg);
+}
+.modern_buttom {
+  outline: none;
+  width: 370px;
+  padding: 19px 0;
+  color: #ffffff;
+  text-align: center;
+  background-color: #ec7979;
+  font-size: 15px;
+  border-radius: 0 0 8px 8px;
+}

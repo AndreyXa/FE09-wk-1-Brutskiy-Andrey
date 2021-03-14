@@ -7,7 +7,7 @@
 
 .social_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   margin: 0 15px;

@@ -14,7 +14,7 @@
 }
 .contact_form {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 15px;
 }
@@ -44,6 +44,7 @@
 }
 .contact_text {
   width: 478px;
+  resize: none;
   outline: none;
   border: none;
   border-bottom: 2px solid #bdbdbd;
@@ -58,6 +59,7 @@
   background: #ec7979;
   border: 1px solid #ffffff;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .contact_buttom_text {
   font-family: Open Sans;
