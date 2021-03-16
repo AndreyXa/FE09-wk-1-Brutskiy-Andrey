@@ -408,29 +408,43 @@
         </div>
         <div class="contact_form">
           <form action="" class="contact_form_send">
-            <div class="form_decoratons">
-              <p class="form_decoratons_text">Name</p>
+            <div class="contact_form_items">
+              <div class="form_items_right">
+                <div class="form_items_decoratons">
+                  <label class="form_items_decoratons_text" for="name"
+                    >Name</label
+                  >
+                  <input class="contact_text" type="text" />
+                </div>
+
+                <div class="form_decoratons">
+                  <label class="form_items_decoratons_text" for="Email"
+                    >Email</label
+                  >
+                  <input class="contact_text" type="email" />
+                </div>
+
+                <div class="form_decoratons">
+                  <label class="form_items_decoratons_text" for="password"
+                    >Password</label
+                  >
+                  <input class="contact_text" type="password" />
+                </div>
+              </div>
+              <div class="form_items_left">
+                <div class="form_decoratons">
+                  <label class="form_items_decoratons_text" for="Message"
+                    >Message</label
+                  >
+                  <textarea
+                    class="contact_text"
+                    name="text"
+                    cols="30"
+                    rows="13"
+                  ></textarea>
+                </div>
+              </div>
             </div>
-            <input class="contact_text" type="text" />
-            <div class="form_decoratons">
-              <p class="form_decoratons_text">Email</p>
-            </div>
-            <input class="contact_text" type="email" />
-            <div class="form_decoratons">
-              <p class="form_decoratons_text">Password</p>
-            </div>
-            <input class="contact_text" type="password" />
-          </form>
-          <form action="" class="contact_form_mes">
-            <div class="form_decoratons">
-              <p class="form_decoratons_text">Message</p>
-            </div>
-            <textarea
-              class="contact_text"
-              name="text"
-              cols="30"
-              rows="13"
-            ></textarea>
           </form>
         </div>
         <button class="contact_buttom" type="submit" onclick="submitForm()">

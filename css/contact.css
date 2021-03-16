@@ -14,9 +14,14 @@
 }
 .contact_form {
   display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.contact_form_items {
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 15px;
 }
 
 .contact_description {
@@ -31,7 +36,8 @@
 
   color: #86878b;
 }
-.form_decoratons_text {
+.form_items_decoratons_text {
+  display: block;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
