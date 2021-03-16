@@ -23,6 +23,14 @@
   cursor: pointer;
   border-radius: 8px;
   outline: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
 }
 .tabs_buttom:focus {
   background-color: #fdabab;
@@ -56,11 +64,11 @@
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 58px;
+
   color: #000000;
 }
 
-.tabs_content__text {
+.tabs_content_text {
   max-width: 570px;
   font-family: Open Sans;
   font-style: normal;
@@ -75,24 +83,24 @@
 }
 .tabs_buttom_download {
   width: 135px;
-  margin-top: 67px;
   padding: 11px 32px;
   background: #ec7979;
   border: 1px solid #ffffff;
-  box-sizing: border-box;
-  cursor: pointer;
   outline: none;
-}
-.tabs_buttom_download_text {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
-  line-height: 20px;
+
   text-align: center;
 
   color: #ffffff;
 }
+.tabs_buttom_download:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .tabs_img {
   max-width: 320px;
   display: flex;

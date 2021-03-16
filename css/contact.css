@@ -56,24 +56,25 @@
   border-bottom: 2px solid #bdbdbd;
   transform: rotate(0.38deg);
 }
-.contact_buttom {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, 0);
+.contact_form_buttom {
+  text-align: center;
+  margin: auto;
   margin-top: 67px;
+}
+.contact_buttom {
   padding: 11px 32px;
   background: #ec7979;
   border: 1px solid #ffffff;
-  box-sizing: border-box;
-  cursor: pointer;
-}
-.contact_buttom_text {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
-  line-height: 20px;
+  outline: none;
   text-align: center;
 
   color: #ffffff;
+}
+.contact_buttom:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }

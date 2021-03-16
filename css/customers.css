@@ -20,9 +20,9 @@
 }
 
 .customers_items {
-  margin-top: 76px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .customers_item {
