@@ -20,89 +20,76 @@
 }
 
 .customers_items {
-  margin: 76px -15px;
+  margin-top: 76px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .customers_item {
-  text-align: center;
-  margin: 0 15px;
+  display: flex;
   max-width: 298px;
+  margin: auto;
+  margin: 0 15px 20px;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 5px 5px;
 }
 
-.customers_discription {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
+.customers_item_text {
   font-size: 14px;
   line-height: 19px;
-  display: flex;
   align-items: center;
   text-align: center;
-  padding: 9px 22px 6px 23px;
   color: #86878b;
   background-color: #e2e2e2;
-  border-radius: 7px;
+  border-radius: a 7px;
+  padding: 9px 22px 6px 23px;
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
-
-.customers_discription::after {
+.customers_item_text::after {
   content: '';
   width: 0;
   height: 0;
-  border-top: 17px solid #e2e2e2;
-  border-left: 17px solid transparent;
-  border-right: 17px solid transparent;
+  border-top: 14px solid #e2e2e2;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
   position: absolute;
   top: 100%;
-  left: 47px;
+  left: 15%;
 }
 
-.customers_info {
+.customers_item_card {
+  margin-top: 22px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 30px;
 }
-
-.customers_name::before {
-  content: '';
+.customers_item_img {
+  border: 1px solid white;
+  border-radius: 50%;
   width: 70px;
   height: 70px;
-  border-radius: 50%;
-  background-image: url('/img/icon/sticker.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-size: contain;
-  vertical-align: middle;
-  margin-right: 45px;
+  overflow: hidden;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
 }
-.customers_name {
-  font-family: Open Sans;
-  font-style: normal;
+.avatar {
+  height: 100%;
+}
+.customer {
+  text-align: right;
+  vertical-align: middle;
+}
+.customers_card_name {
   font-weight: bold;
   font-size: 20px;
-  line-height: 27px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
+  line-height: 45px;
   color: #333333;
 }
-
-.customers_text {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
+.customers_card_occupation {
   font-size: 14px;
-  line-height: 19px;
+  line-height: 10px;
   color: #86878b;
-  text-align: center;
-  margin-left: 150px;
 }

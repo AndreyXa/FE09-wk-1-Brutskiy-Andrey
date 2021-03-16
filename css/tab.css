@@ -1,0 +1,100 @@
+.tabs {
+  width: 100%;
+  padding: 109px 0;
+}
+
+.tabs_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.tabs_buttons {
+  display: flex;
+  flex-direction: column;
+}
+.tabs_buttom {
+  width: 112px;
+  margin-bottom: 10px;
+  padding: 45px 35px;
+  background: #333333;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+}
+.tabs_buttom:focus {
+  background-color: #fdabab;
+}
+.tabs_buttom_text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.tabs_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tabs_content_title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 58px;
+  color: #000000;
+}
+
+.tabs_content__text {
+  max-width: 570px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #86878b;
+}
+.tabs_buttom_download {
+  width: 135px;
+  margin-top: 67px;
+  padding: 11px 32px;
+  background: #ec7979;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+}
+.tabs_buttom_download_text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.tabs_img {
+  max-width: 320px;
+  display: flex;
+  justify-content: space-around;
+}

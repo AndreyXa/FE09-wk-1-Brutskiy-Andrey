@@ -52,9 +52,9 @@
             <div class="moderm_logo">
               <h3 class="modern_logo_ax">AX</h3>
             </div>
-            <h2 class="title modern_title">
+            <h1 class="title modern_title">
               MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
-            </h2>
+            </h1>
             <div class="modern_line"><hr class="modern_line_dec" /></div>
             <p class="modern_text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -64,28 +64,30 @@
               <a class="modern_download_text" href="#">Download</a>
             </div>
           </div>
-          <div class="modern_form3">
-            <div class="modern_form">
-              <form action="">
-                <h2 class="modern_form_title">
-                  Try Your <span class="modern_span">FREE </span>Trial Today
-                </h2>
-                <div class="modern_form_decoratons">
-                  <p class="modern_form_decoratons_text">Name</p>
-                </div>
-                <input class="mordern_text" type="text" />
-                <div class="modern_form_decoratons">
-                  <p class="modern_form_decoratons_text">Email</p>
-                </div>
-                <input class="mordern_text" type="email" />
-                <div class="modern_form_decoratons">
-                  <p class="modern_form_decoratons_text">Password</p>
-                </div>
-                <input class="mordern_text" type="password" />
-              </form>
+          <form class="modern_form">
+            <div class="form_items">
+              <h2 class="form_title">
+                Try your <span class="form_span"> Free </span> trial today
+              </h2>
+              <div class="form_item">
+                <label class="form_item_title" for="name">Name</label>
+                <input class="form_item_field" type="text" />
+              </div>
+              <div class="form_item">
+                <label class="form_item_title" for="Email">Email</label>
+                <input class="form_item_field" type="text" />
+              </div>
+              <div class="form_item">
+                <label class="form_item_title" for="password">Password</label>
+                <input class="form_item_field" type="password" />
+              </div>
             </div>
-            <input type="submit" value="Get Started" class="modern_buttom" />
-          </div>
+            <div class="modern_buttom">
+              <button class="modern_buttom_text" type="submit">
+                Get Started
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
@@ -148,6 +150,55 @@
                 ></a>
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tabs">
+      <div class="container">
+        <div class="tabs_container">
+          <div class="tabs_buttons">
+            <div class="tabs_button">
+              <button
+                class="tabs_buttom"
+                type="submit"
+                onclick="MyFunction1()"
+                autofocus
+              >
+                <p class="tabs_buttom_text">TAB1</p>
+              </button>
+            </div>
+            <div class="tabs_button">
+              <button class="tabs_buttom" type="submit" onclick="MyFunction2()">
+                <p class="tabs_buttom_text">TAB2</p>
+              </button>
+            </div>
+            <div class="tabs_button">
+              <button class="tabs_buttom" type="submit" onclick="MyFunction3()">
+                <p class="tabs_buttom_text">TAB3</p>
+              </button>
+            </div>
+          </div>
+          <div class="tabs_content">
+            <h3 class="tabs_content_title">
+              Tabs with soft transitioning effect.
+            </h3>
+            <p id="par" class="tabs_content__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+              nesciunt et ex debitis quasi, adipisci officiis suscipit nisi
+              pariatur ipsa dicta doloremque alias. Optio delectus itaque
+              quidem, repudiandae quasi possimus officia! Error repudiandae
+              blanditiis facilis ducimus molestiae tempora quo dolor accusamus
+              explicabo vitae! Temporibus, libero quod eaque delectus officiis,
+              tempora mollitia nobis assumenda error, totam ratione amet
+              architecto!
+            </p>
+            <button class="tabs_buttom_download" type="submit">
+              <p class="tabs_buttom_download_text">Download</p>
+            </button>
+          </div>
+          <div class="tabs_img">
+            <img class="tabs_img" src="/img/tab.png" alt="" />
           </div>
         </div>
       </div>
@@ -282,44 +333,52 @@
         </div>
         <div class="customers_items">
           <div class="customers_item">
-            <div class="customers_discription">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloribus accusamus expedita repellat similique odio aspernatur
-                ex, architecto eaque quo suscipit.
-              </p>
-            </div>
-            <div class="customers_info">
-              <div class="customers_name"><h3>Jeremy H.</h3></div>
-              <div class="customers_text"><p>Manager</p></div>
-            </div>
-          </div>
-          <div class="customers_item">
-            <div class="customers_discription">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloribus accusamus expedita repellat similique odio aspernatur
-                ex, architecto eaque quo suscipit.
-              </p>
-            </div>
-            <div class="customers_info">
-              <div class="customers_name"><h3>Jeremy H.</h3></div>
-              <div class="customers_text"><p>Manager</p></div>
-            </div>
-          </div>
-          <div class="customers_item">
-            <div class="customers_discription">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloribus accusamus expedita repellat similique odio aspernatur
-                ex, architecto eaque quo suscipit.
-              </p>
-            </div>
-            <div class="customers_info">
-              <div class="customers_name">
-                <h3>Jeremy H.</h3>
+            <p class="customers_item_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo,
+              facilis eius dicta eligendi minima explicabo adipisci voluptatem
+              mollitia soluta doloribus recusandae...
+            </p>
+            <div class="customers_item_card">
+              <div class="customers_item_img">
+                <img class="avatar" src="/img/icon/sticker.png" alt="avatar" />
               </div>
-              <div class="customers_text"><p>Manager</p></div>
+              <div class="customer">
+                <p class="customers_card_name">Jeremy H.</p>
+                <p class="customers_card-occupation">Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="customers_item">
+            <p class="customers_item_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo,
+              facilis eius dicta eligendi minima explicabo adipisci voluptatem
+              mollitia soluta doloribus recusandae, ex iusto, dignissimos
+              aspernatur in magnam enim iure deserunt sed suscipit similique
+            </p>
+            <div class="customers_item_card">
+              <div class="customers_item_img">
+                <img class="avatar" src="/img/icon/sticker.png" alt="avatar" />
+              </div>
+              <div class="customer">
+                <p class="customers_card_name">Jeremy H.</p>
+                <p class="customers_card-occupation">Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="customers_item">
+            <p class="customers_item_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo,
+              facilis eius dicta eligendi minima explicabo adipisci voluptatem
+              mollitia soluta doloribus recusandae, ex iusto, dignissimos
+            </p>
+            <div class="customers_item_card">
+              <div class="customers_item_img">
+                <img class="avatar" src="/img/icon/sticker.png" alt="avatar" />
+              </div>
+              <div class="customer">
+                <p class="customers_card_name">Jeremy H.</p>
+                <p class="customers_card-occupation">Manager</p>
+              </div>
             </div>
           </div>
         </div>
