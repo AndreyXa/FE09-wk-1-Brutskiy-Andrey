@@ -1,5 +1,5 @@
 .modern {
-  width: 100%;
+  max-width: 100%;
   padding: 109px 0;
   background-image: url('/img/background-2.png');
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
+  font-size: 3.75rem;
   line-height: 70px;
   padding-bottom: 32px;
   color: #ffffff;
@@ -34,14 +34,14 @@
 .modern_logo_ax::after {
   content: 'IT';
   color: #ec7979;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 .modern_title {
   width: 544px;
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 42px;
   color: #ffffff;
 }
@@ -63,7 +63,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 19px;
   color: #ffffff;
 }
@@ -76,7 +76,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.938rem;
   text-align: center;
 
   color: #ffffff;
@@ -102,7 +102,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 27px;
   display: flex;
   align-items: center;
@@ -125,7 +125,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 19px;
 
   color: #bdbdbd;
@@ -146,7 +146,7 @@
   width: 370px;
   border-radius: 0 0 8px 8px;
   color: white;
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 .modern_buttom_text:hover {
   border-radius: 0 0 8px 8px;

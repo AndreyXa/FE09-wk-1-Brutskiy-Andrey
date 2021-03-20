@@ -1,11 +1,12 @@
 .tabs {
-  width: 100%;
+  max-width: 100%;
   padding: 109px 0;
 }
 
 .tabs_container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0 15px;
 }
 
@@ -26,7 +27,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.938rem;
   line-height: 20px;
   text-align: center;
 
@@ -39,7 +40,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 0.938rem;
   line-height: 20px;
   display: flex;
   align-items: center;
@@ -58,7 +59,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 27px;
   display: flex;
   align-items: center;
@@ -73,7 +74,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 19px;
   display: flex;
   align-items: center;
@@ -90,7 +91,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.938rem;
 
   text-align: center;
 

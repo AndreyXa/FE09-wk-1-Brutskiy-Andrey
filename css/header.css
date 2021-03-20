@@ -1,5 +1,5 @@
 .header {
-  width: 100%;
+  max-width: 100%;
   background-color: rgba(0, 0, 0, 0.9);
   padding: 15px 0;
 }
@@ -18,7 +18,7 @@
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 50px;
   color: #ffffff;
 }
@@ -41,7 +41,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.938rem;
   line-height: 20px;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.7);

@@ -1,5 +1,5 @@
 .customers {
-  width: 100%;
+  max-width: 100%;
   padding: 80px 0;
 }
 .customers_title {
@@ -84,12 +84,12 @@
 }
 .customers_card_name {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 45px;
   color: #333333;
 }
 .customers_card_occupation {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 10px;
   color: #86878b;
 }

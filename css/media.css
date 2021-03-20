@@ -1,0 +1,83 @@
+@media (max-width: 990px) {
+  .container_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .modern_descriprion {
+    margin-bottom: 1.25rem;
+  }
+  .moderm_logo {
+    text-align: center;
+  }
+  .modern_title {
+    text-align: center;
+  }
+  .modern_line {
+    margin: auto;
+    padding-top: 1.25rem;
+  }
+  .modern_text {
+    text-align: center;
+    margin: auto;
+  }
+  .modern_download {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .social_content {
+    margin-bottom: 1rem;
+  }
+  .tabs_img {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 790px) {
+  .tabs_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tabs_buttons {
+    flex-direction: row;
+    margin-bottom: 2rem;
+  }
+  .tabs_button {
+    margin-right: 1rem;
+  }
+  .tabs_content {
+    text-align: center;
+  }
+  .tabs_content_title {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .tabs_content_text {
+    margin-bottom: 1rem;
+  }
+  .asome_item {
+    margin-bottom: 1rem;
+  }
+  .pricing_row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing_cards {
+    padding-bottom: 1rem;
+  }
+  .customers_items {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 690px) {
+  .navigator {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 0.5rem;
+  }
+}
