@@ -73,7 +73,63 @@
 }
 @media (max-width: 690px) {
   .navigator {
-    display: none;
+  }
+  .menu_btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu_btn > span,
+  .menu_btn > span::before,
+  .menu_btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu_btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu_btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .navigator {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+  }
+  .navigator_items {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .menu_toggle:checked ~ .menu_btn > span {
+    transform: rotate(45deg);
+  }
+  .menu_toggle:checked ~ .menu_btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  .menu_toggle:checked ~ .menu_btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  .menu_toggle:checked ~ .navigator {
+    visibility: visible;
+    left: 0;
   }
 }
 @media (max-width: 590px) {

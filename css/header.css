@@ -22,6 +22,9 @@
   line-height: 50px;
   color: #ffffff;
 }
+.menu_toggle {
+  opacity: 0;
+}
 
 .header_row {
   display: flex;
